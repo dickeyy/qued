@@ -93,3 +93,7 @@ More examples can be found in the [examples](./examples) directory.
 - [ ] Add a way to tell the producer that the consumer has processed the item
 - [ ] Dead-letter queues
 - [ ] Scheduled processing (tell the consumer when to process an item, or how long to wait before processing an item)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
