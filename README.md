@@ -76,6 +76,8 @@ func main() {
 }
 ```
 
+Producers and consumers can be in the same language, or different languages. The SDKs provide both methods for each language.
+
 More examples can be found in the [examples](./examples) directory.
 
 ## Features
