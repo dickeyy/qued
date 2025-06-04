@@ -1,4 +1,4 @@
-module github.com/dickeyy/qued
+module github.com/dickeyy/qued/go-sdk
 
 go 1.24.1
 

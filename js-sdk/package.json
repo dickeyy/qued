@@ -1,12 +1,28 @@
 {
-  "name": "qued",
-  "module": "qued.ts",
+  "name": "@dickey/qued",
+  "version": "0.1.0",
+  "description": "A minimal, language-agnostic, Redis-backed queue library.",
+  "main": "dist/qued.js",
+  "types": "dist/qued.d.ts",
+  "module": "dist/qued.js",
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build qued.ts --outdir dist && tsc --project tsconfig.build.json",
+    "prepare": "npm run build"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dickeyy/qued"
+  },
+  "author": "Kyle Dickey <k@kyle.so>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0"
   },
   "dependencies": {
     "redis": "^5.5.5",
