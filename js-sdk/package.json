@@ -1,6 +1,6 @@
 {
   "name": "@dickey/qued",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal, language-agnostic, Redis-backed queue library.",
   "main": "dist/qued.js",
   "types": "dist/qued.d.ts",
@@ -10,7 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build qued.ts --outdir dist && tsc --project tsconfig.build.json",
+    "build": "bun build qued.ts --outdir dist --format esm && tsc --project tsconfig.build.json",
     "prepare": "npm run build"
   },
   "repository": {
